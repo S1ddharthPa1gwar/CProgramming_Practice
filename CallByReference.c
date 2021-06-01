@@ -6,7 +6,7 @@ int main() {
 int a=4,b=5;
 printf("Value of a and b before swap is %d and %d\n", a,b);
 swap(&a,&b);
-printf("Value of a and b before swap is %d and %d\n", a,b);
+printf("Value of a and b after swap is %d and %d\n", a,b);
 return 0;
 }
 
