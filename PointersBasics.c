@@ -10,6 +10,8 @@ printf("value of i is %u\n",**k);
 printf("value of j is %u\n",j);
 printf("value of j is %u\n",*k);
 printf("value of j is %u\n",**&k);
+printf("Address of j is %u\n",&j);
+printf("Address of j is %u\n",k);
 
 return 0;
 }
