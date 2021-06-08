@@ -5,7 +5,7 @@ void PrintArray(int *ptr, int size);
 int main()
 {
 int marks[]={45,85,23,15,65,32};
-PrintArray(marks,6);
+PrintArray(marks,6);    //we are passing address, it can change values in actual array.
     return 0;
 }
 

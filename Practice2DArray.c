@@ -14,7 +14,7 @@ int main()
         }
     }
 
-    int *pointer = &Matrix;
+    int *pointer = Matrix;
     Display(pointer, 3, 4);
     return 0;
 }
@@ -25,7 +25,7 @@ void Display(int *ptr, int x, int y)
     {
         for (int j = 0; j < y; j++)
         {
-            printf("%d", *ptr[i][j]);
+            printf("%d", *ptr[x][y]);
         }
         printf("\n");
     }
