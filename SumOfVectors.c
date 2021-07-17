@@ -1,21 +1,22 @@
 #include <stdio.h>
 
-typedef struct vector
+typedef struct vectortor
 {
     int x;
     int y;
-} Vec;
+} vector;
 
-void SumVec(Vec u, Vec v)
+vector Sumvector(vector u, vector v)
 {
-    int x = u.x + v.x;
-    int y = u.y + v.y;
-    printf("The sum of two vectors in X dim is %d and in Y dim is %d",x,y);
+    vector result;
+    result.x = u.x + v.x;
+    result.y = u.y + v.y;
+    return result;
 }
 
 int main()
 {
-    Vec v1, v2;
+    vector v1, v2;
     v1.x = 10;
     v1.y = 15;
 
@@ -23,6 +24,7 @@ int main()
     v2.y = 150;
     printf("X dim is %d and y dim is %d.\n", v1.x, v1.y);
     printf("X dim is %d and y dim is %d.\n", v2.x, v2.y);
-    SumVec(v1, v2);
-     return 0;
+    vector sum = Sumvector(v1, v2);
+    printf("The resultant vectortor in x dim is %d and in Y dim is %d", sum.x, sum.y);
+    return 0;
 }
