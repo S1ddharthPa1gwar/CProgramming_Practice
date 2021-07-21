@@ -1,4 +1,6 @@
-void show(struct employee Emp)
-{
-    printf("The code is : %d \nThe salary is : %f \nThe name is : %s ",Emp.code, Emp.salary, Emp.name);
-}
+ while (c != EOF)
+    {
+        fputc(c, ptr2);
+        // fputc(c, ptr2);
+        c = fgetc(ptr1);
+    }
