@@ -1,6 +1,5 @@
- while (c != EOF)
-    {
-        fputc(c, ptr2);
-        // fputc(c, ptr2);
-        c = fgetc(ptr1);
-    }
+   // for (int i = 0; i < 6; i++)
+    // {
+    //     printf("Enter the value of %d element :", i + 1);
+    //     scanf("%d", &ptr[i]);
+    // }
