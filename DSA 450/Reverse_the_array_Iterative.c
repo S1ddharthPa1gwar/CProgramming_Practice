@@ -9,7 +9,7 @@ void print(int Arr[], int size)      //Printing Array
     printf("\n\n");
 }
 
-void reverse(int *A, int size)      //Reversing Array
+void reverse(int A[], int size)      //Reversing Array
 {
     for (int i = 0; i < size / 2; i++)
     {
